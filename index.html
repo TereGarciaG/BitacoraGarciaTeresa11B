@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora Tecnología Teresa García</title>
+    <link rel="icon" type="image/png" href="recursos/img/LOGO_CAPOUILLIEZ - Isotipos Blancos-06.png">
+    <style>
+        html, body{
+        height: 100%;
+        margin: 0%;
+        background: linear-gradient(135deg, #ffffff 0%, #ff99c2 100%);
+    background-attachment: fixed; /* Esto hace que el fondo no se mueva al bajar */
+    font-family: 'Poppins', sans-serif; /* Una fuente más moderna */
+        }
+        
+        body{
+            /* Aplicamos la fuente que elegiste */
+    font-family: "Playwrite GB J Guides", cursive;
+    
+    /* CONSEJO: Como es fuente de manuscrito, súbele un poco el tamaño */
+    font-size: 1.1rem; 
+    line-height: 1.8; /* Más espacio entre líneas para que no se amontone */
+    color: #444;
+            body {
+    background: linear-gradient(-45deg, #f0a4bf, #f63481, #600625);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: rgb(255, 190, 216); /* Para que el texto sea legible sobre fondo oscuro */
+    body {
+    background: linear-gradient(135deg, #fb9fd9 0%, #d75a78 100%);
+    background-attachment: fixed; /* Esto hace que el fondo no se mueva al bajar */
+    font-family: 'Poppins', sans-serif; /* Una fuente más moderna */
+}
+}
+
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        h1 {
+    color: white; /* El centro blanco hace que el neón resalte más */
+    text-shadow: 
+        0 0 7px rgb(244, 64, 157),
+        0 0 10px rgb(244, 64, 157),
+        0 0 21px rgb(244, 64, 157),
+        0 0 42px rgb(244, 64, 157);
+        }
+        header{
+            padding: 20px;
+            background-color: rgb(255, 164, 201);
+            
+        }
+        header {
+    padding: 20px;
+    background-color: rgb(255, 164, 201);
+    display: flex;             /* Activa el modo flexible */
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+    width: 100%;               /* Asegura que ocupe todo el ancho */
+} 
+        main{
+            flex: 1;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            border-top: 1px solid rgb(58, 8, 22);
+            background-color: rgb(255, 189, 214);
+        }
+        @media(max-width:600px){
+            footer{
+                flex-direction: column;
+                gap: 15px;
+                padding: 20px;
+            }
+        }
+        .semana {
+    background-color: #ffffff;
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 800px;
+    border-radius: 20px;
+    border-left: 8px solid rgb(244, 64, 157);
+    box-shadow: 0 10px 25px rgba(244, 64, 157, 0.1);
+    text-align: left;
+    transition: transform 0.4s ease;
+}
+
+.semana:hover {
+    transform: scale(1.02);
+    background-color: #f3b3cd;
+    box-shadow: 0 15px 35px rgba(244, 64, 157, 0.2);
+}
+footer img {
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+/* El carril de la barra */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* El fondo de la barra */
+::-webkit-scrollbar-track {
+    background: #1a1a1a; 
+}
+
+/* La parte que se mueve (el "pulgar") */
+::-webkit-scrollbar-thumb {
+    background: rgb(244, 64, 157);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(244, 64, 157);
+}
+.visor-pdf {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden; /* Para que las esquinas del PDF no se salgan del borde redondeado */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.pdf-header {
+    background-color: #e7a9be;
+    padding: 5px 5px;
+    border-bottom: 1px solid #fd8fac;
+    font-size: 0.85rem;
+    color: #512e36;
+    font-weight: 60;
+}
+
+.frame-pdf {
+    width: 100%;
+    height: 250px; /* Altura ideal para leer sin que sea gigante */
+    border: none;
+    display: block;
+}
+
+/* Ajuste para que en celulares no ocupe tanto espacio hacia abajo */
+@media (max-width: 300px) {
+    .frame-pdf {
+        height: 150px;
+    }
+}
+.contenedor-video-personal {
+    margin-top: 25px;
+    background: #fdfdfd;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+}
+
+.video-label {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: rgb(244, 64, 157); /* El rosa de tu tema */
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.video-player {
+    width: 100%;            /* Se ajusta al ancho de la tarjeta */
+    border-radius: 10px;    /* Bordes redondeados */
+    box-shadow: 0 8px 20px rgba(244, 64, 157, 0.15); /* Sombra suave rosa */
+    outline: none;
+}
+
+/* Opcional: un efecto cuando pasas el mouse */
+.video-player:hover {
+    box-shadow: 0 8px 25px rgba(244, 64, 157, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado de mi pagina WEB</h1>
+    </header>
+    <main>
+    <div class="semana">
+        <h2>semana 1: introducción</h2>
+        <div class="adjunto-pdf">
+    <div class="pdf-info">
+        <div>
+            <strong>Introducción Arduino</strong>
+            <p>Guía técnica de componentes</p>
+        </div>
+    </div>
+    <a href="recursos/Introducción Arduino Teresa G 11B.pdf" target="_blank" class="recursos">
+        
+        Abrir Documento
+        <div class="visor-pdf">
+    <div class="pdf-header">
+        <span>Vista previa: Documento Introducción</span>
+    </div>
+    <iframe src="recursos/Introducción Arduino Teresa G 11B.pdf" class="frame-pdf"></iframe>
+</div>
+    </a>
+</div>
+        <div  style="clear: both;"></div>
+    </div>
+
+    <div class="semana">
+        <h2>Semana 02</h2>
+        <strong>Introduccion a robotica</strong>
+        <div class="contenedor-video-personal">
+    <div class="video-label">🎥 Mi demostración personal</div>
+    <video controls class="video-player">
+        <source src="recursos/Grabación 2026-05-12 114303.mp4" type="video/mp4">
+    </video>
+</div>
+    </a>
+</div>
+        <h4>Contenido de mi pagina WEB</h4>
+    </main>
+    <footer>
+        <span>©2026 @te_a_g_g</span>
+    <img src="https://www.capouilliez.edu.gt/assets/img/logo.png" alt="" width="100px">
+    </footer>
+</body>
+</html>
